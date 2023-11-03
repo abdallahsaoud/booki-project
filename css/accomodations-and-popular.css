@@ -1,0 +1,11 @@
+.accomodations-and-popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accomodations-and-popular section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
