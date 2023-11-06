@@ -1,159 +1,157 @@
 .info-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 35px;
 }
 
 .headline {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .headline h1 {
-    margin: 0;
-font-size: 1.375rem;
-font-weight: 700;
-line-height: 1.614rem;
-letter-spacing: 0em;
-text-align: left;
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.614rem;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .headline p {
-    margin: 0;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.174rem;
-letter-spacing: 0em;
-text-align: left;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.174rem;
+  letter-spacing: 0em;
+  text-align: left;
 }
- 
+
 .search-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 50px;
-    width: 377px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 377px;
 }
 
 .background-icon {
-    display: flex;
-    justify-content: center;
-    background-color: var(--main-bg-color);
-    height: 100%;
-    width: 13.2625995%;
-    border-radius: 15px 0px 0px 15px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+  height: 100%;
+  width: 13.2625995%;
+  border-radius: 15px 0px 0px 15px;
 }
 
 #icon-search {
-    color: black;
-    align-self: center;
+  color: black;
+  align-self: center;
 }
 
 #search-box {
-    height: 100%;
-    border-right: none;
-    border-left: none;
-    border: 1px solid var(--main-bg-color);
-    width: 51.7241379%;
-    outline: none;
+  height: 100%;
+  border-right: none;
+  border-left: none;
+  border: 1px solid var(--main-bg-color);
+  width: 51.7241379%;
+  outline: none;
 }
 
 .search {
-    width: 35.01322626%;
-    height: 100%;
-   background-color: var(--main-color);
-   color: white;
-   font-size: 1.125rem;
-   font-weight: 700;
-   line-height: 1.321rem;
-   letter-spacing: 0em;
-   text-align: center;
-   border-radius: 0px 15px 15px 0px;
-   border: none;
+  width: 35.01322626%;
+  height: 100%;
+  background-color: var(--main-color);
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.321rem;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 0px 15px 15px 0px;
+  border: none;
 }
 
 .search p {
-    margin: 0;
+  margin: 0;
 }
 
 .hide-search {
-    font-style: normal;
+  font-style: normal;
 }
 
 #magnifying-glass {
-    color: white;
-    display: none;
+  color: white;
+  display: none;
 }
 
 ::placeholder {
-    color: black;
-    opacity: 1;
-    height: 42%;
-    font-size: 1.125rem;
-    font-weight: 700;
-    line-height: 1.321rem;
-    letter-spacing: 0em;
-    text-align: center;
-
+  color: black;
+  opacity: 1;
+  height: 42%;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.321rem;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .filter-bar {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
 }
 
 .filter {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  height: 100%;
 }
 
 .filter-bar div {
-    font-size: 1.125rem;
-    font-weight: 700;
-    line-height: 1.313rem;
-    letter-spacing: 0em;
-    text-align: center;
-
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.313rem;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .filter-bar button {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 25px;
-    border: 2px solid var(--main-bg-color);
-    background-color: white;
-    padding: 4px 19px 4px 19px;
-    font-weight: 700;
-    font-size: 1.063rem;
-    line-height: 1.248rem;
-    align-items: center;
-    height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 25px;
+  border: 2px solid var(--main-bg-color);
+  background-color: white;
+  padding: 4px 19px 4px 19px;
+  font-weight: 700;
+  font-size: 1.063rem;
+  line-height: 1.248rem;
+  align-items: center;
+  height: 50px;
 }
 
 .filter-bar button:hover {
-    background-color: #DEEBFF;
+  background-color: #deebff;
 }
 
 .info {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
 }
 
 .circle-info {
-    width: 24px;
-    height: 24px;
-    border: 1px solid var(--main-bg-color);   
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--main-bg-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
